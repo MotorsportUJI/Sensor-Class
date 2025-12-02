@@ -7,7 +7,7 @@
 #define Rref 2796.0 // Resistencia de referencia en ohmios
 
 
-Sensor::Sensor(uint8_t pin, long minValSalida, long maxValSalida, long minValEntrada=0, long maxValEntrada=1203) {
+Sensor::Sensor(uint8_t pin, long minValSalida, long maxValSalida, long minValEntrada, long maxValEntrada) {
   this->pin = pin;
   this->minValSalida = minValSalida;
   this->maxValSalida = maxValSalida;
